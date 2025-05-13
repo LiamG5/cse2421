@@ -1,0 +1,33 @@
+
+Liam Graham
+
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE PERFORMED ALL OF THE WORK TO CREATE
+THIS FILE AND/OR DETERMINE THE ANSWERS FOUND WITHIN THIS FILE MYSELF WITH NO ASSISTANCE
+FROM ANY PERSON (OTHER THAN THE INSTRUCTOR OR GRADERS OF THIS COURSE) AND I HAVE STRICTLY
+ADHERED TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY.
+THIS IS THE README FILE FOR LAB 2.
+
+
+5 hours
+
+When doing part 3 my printfs keep showing up even though the expected ouput showed the 
+bit_encode1 without the printf.
+After looking into the makefile and reading about the-d PROMPT command
+I belived that bit_encode2 is supposed to omit the printfs which is what happens.
+
+keypattern = [?,?,?,?,?,?,?,?]
+keypattern = [0,?,?,?,?,?,?,?]
+keypattern = [0,?,?,?,0,?,?,?]
+
+keypattern = [0,1,?,?,0,?,?,?]
+keypattern = [0,1,?,?,0,1,?,?]
+
+keypattern = [0,1,1,?,0,1,?,?]
+keypattern = [0,1,1,?,0,1,1,?]
+
+keypattern = [0,1,1,0,0,1,1,?]
+keypattern = [0,1,1,0,0,1,1,0]
+
+6. didn't run on bit_encode1
+
+the make file tool was nice as I didn't have to type out the sensitive and long commands

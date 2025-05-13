@@ -1,0 +1,16 @@
+/* BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE PERFORMED ALL OF
+THE WORK TO CREATE THIS FILE AND/OR DETERMINE THE ANSWERS FOUND WITHIN
+THIS FILE MYSELF WITH NO ASSISTANCE FROM ANY PERSON (OTHER THAN THE
+INSTRUCTOR OR GRADERS OF THIS COURSE) AND I HAVE STRICTLY ADHERED TO THE
+TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY.
+*/
+#include"lab4.h"
+#include <stdio.h>
+//prints N/a if -1, has its own file beacuse its useful
+void printNa(float score) {
+    if (score == -1.00f) {
+        printf("N/a\t"); 
+    } else {
+        printf("%.2f\t", score);
+    }
+}
